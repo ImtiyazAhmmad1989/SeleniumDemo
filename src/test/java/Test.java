@@ -13,9 +13,10 @@ public class Test {
 
 		System.out.println("Running Test Form Test !!!!!!!!!!");
 
-		WebDriverManager.iedriver().setup();
+		WebDriverManager.chromedriver().setup();
 
-		WebDriver driver = new InternetExplorerDriver();
+		// WebDriver driver = new InternetExplorerDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.google.com");
 
 	}
