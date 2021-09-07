@@ -13,11 +13,14 @@ public class Test {
 
 		System.out.println("Running Test Form Test !!!!!!!!!!");
 
-		WebDriverManager.chromedriver().setup();
+//		WebDriverManager.chromedriver().setup();
+//
+//		// WebDriver driver = new InternetExplorerDriver();
+//		WebDriver driver = new ChromeDriver();
+//		driver.get("http://www.google.com");
 
-		// WebDriver driver = new InternetExplorerDriver();
-		WebDriver driver = new ChromeDriver();
-		driver.get("http://www.google.com");
-
+		
+		System.out.println(" HELLO WORLD !!!!!!!!");
+		
 	}
 }
